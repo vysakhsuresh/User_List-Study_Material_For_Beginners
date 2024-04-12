@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 116.0.5845 (Windows 10.0.0)" package="unit" timestamp="2023-09-05T05:36:10" id="0" hostname="INNMIADRCM204" tests="6" errors="0" failures="0" time="0.1">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/116.0.5845.141 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent Clicking on type Book and Add button should add the item to the Book list" time="0.011" classname=".AppComponent"/>
+  <testcase name="AppComponent Clicking on type Song and Add button should add the item to the Song list" time="0.01" classname=".AppComponent"/>
+  <testcase name="AppComponent Initial UI is rendered as expected" time="0.044" classname=".AppComponent"/>
+  <testcase name="AppComponent Clicking on Song type should render time input" time="0.012" classname=".AppComponent"/>
+  <testcase name="AppComponent Clicking on type Song and Add button should clear the input fields" time="0.009" classname=".AppComponent"/>
+  <testcase name="AppComponent Perform a series of operations including delete" time="0.014" classname=".AppComponent"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Song'
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Song'
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Song'
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Song'
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: Object{name: 'Rock On', genre: 'Rock', creator: 'Jay', type: 'Song', totalTime: 10}
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: Object{name: 'Belief', genre: 'Fiction', creator: 'John M', type: 'Book'}
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Song'
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Book'
+,HeadlessChrome 116.0.5845 (Windows 10.0.0) LOG: 'data ==> ', 'Song'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
